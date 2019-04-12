@@ -31,11 +31,11 @@
         <param name="frame_rate" value="$(arg frame_rate)" />
 
         <param name="enable_trigger" value="true" />
-        <param name="trigger_mode" value="Mode14" />
+        <param name="trigger_mode" value="mode14" />
         <param name="trigger_source" value ="GPIO1" />
         <param name="trigger_polarity" value="Low" />
 
-        <!-- Configure sync trigger -->
+        <!-- Configure trigger out for debug purposes -->
         <param name="enable_strobe1" value="true" />
         <param name="strobe1_polarity" value="Low" />
         <param name="strobe1_duration" value ="1" />
