@@ -3,10 +3,10 @@
   <arg name="camera_name" default="camera" />
   <arg name="frame_rate" default="15" />
 
-  <arg name="left_camera_serial" default="0" />
+  <arg name="left_camera_serial" default="18296567" />
   <arg name="left_camera_calibrated" default="0" />
 
-  <arg name="right_camera_serial" default="0" />
+  <arg name="right_camera_serial" default="18457940" />
   <arg name="right_camera_calibrated" default="0" />
 
   <group ns="$(arg camera_name)" >
